@@ -15,5 +15,5 @@ function getJoke() {
 
   req.send();
 }
-
+getJoke();
 getJokeBtn.addEventListener("click", getJoke);
